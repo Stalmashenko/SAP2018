@@ -1,0 +1,61 @@
+lib;  < Исходный код на языке SAP-2018 >
+numb block math (numb x, numb y)
+[
+ create numb fmath;
+ fmath = (x*y-10/2)+2018;
+ back fmath; 
+];
+
+main < главная функция >
+[
+  create logic b00lean;
+  create logic fres;
+  create numb first;
+  create numb second;
+  create numb third;
+  create numb fuck;
+  create numb numword;
+  create numb inchislo;
+  create numb result;
+  create word sap2018;
+  create word login; 
+
+  create logic block subword (word a, word b);   
+  create numb block wordlen (word p);
+  create numb block factorial (numb c);
+  create numb block numbin (numb d, numb e);
+
+  < Инициализация
+  переменных >
+  first = 5-10;
+  second = 5;
+  third = 3;
+  login = 'stalmashenko';
+  sap2018 = 'sap-2018';
+                     
+  fres = subword(login, sap2018);
+  result = math(first, second);
+  numword = wordlen (sap2018);
+  fuck = factorial (10); 
+  inchislo = numbin (first, second);
+  
+  out sap2018;
+  out first;
+  out 'количество букв в слове: ';
+  out numword;  
+  out ' ';
+  out 'проверка на наличие подстроки в строке: ';
+  out b00lean;
+  out ' ';
+  out 'факториал числа 10: ';
+  out fuck; 
+  out ' ';
+  out 'вычисление значения степени числа: ';
+  out inchislo;
+  out ' ';
+  out 'результат работы функции math: ';
+  out result;
+
+  back 0;
+];
+

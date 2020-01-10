@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SAP-2018", "SAP-2018\SAP-2018.vcxproj", "{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLibrary", "StaticLibrary\StaticLibrary.vcxproj", "{EDE27636-D378-450E-99EA-B0BC82FE6FF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "askp", "C:\Users\stalmashenko\Desktop\askp\askp\askp.vcxproj", "{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}.Debug|x64.ActiveCfg = Debug|x64
+		{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}.Debug|x64.Build.0 = Debug|x64
+		{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}.Debug|x86.Build.0 = Debug|Win32
+		{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}.Release|x64.ActiveCfg = Release|x64
+		{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}.Release|x64.Build.0 = Release|x64
+		{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}.Release|x86.ActiveCfg = Release|Win32
+		{ECA0CA82-716D-4F98-BFB0-1F950B34D3D9}.Release|x86.Build.0 = Release|Win32
+		{EDE27636-D378-450E-99EA-B0BC82FE6FF6}.Debug|x64.ActiveCfg = Debug|x64
+		{EDE27636-D378-450E-99EA-B0BC82FE6FF6}.Debug|x64.Build.0 = Debug|x64
+		{EDE27636-D378-450E-99EA-B0BC82FE6FF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDE27636-D378-450E-99EA-B0BC82FE6FF6}.Debug|x86.Build.0 = Debug|Win32
+		{EDE27636-D378-450E-99EA-B0BC82FE6FF6}.Release|x64.ActiveCfg = Release|x64
+		{EDE27636-D378-450E-99EA-B0BC82FE6FF6}.Release|x64.Build.0 = Release|x64
+		{EDE27636-D378-450E-99EA-B0BC82FE6FF6}.Release|x86.ActiveCfg = Release|Win32
+		{EDE27636-D378-450E-99EA-B0BC82FE6FF6}.Release|x86.Build.0 = Release|Win32
+		{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}.Debug|x64.ActiveCfg = Debug|x64
+		{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}.Debug|x64.Build.0 = Debug|x64
+		{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}.Debug|x86.ActiveCfg = Debug|Win32
+		{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}.Debug|x86.Build.0 = Debug|Win32
+		{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}.Release|x64.ActiveCfg = Release|x64
+		{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}.Release|x64.Build.0 = Release|x64
+		{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}.Release|x86.ActiveCfg = Release|Win32
+		{F04EBA40-669B-4CD8-828C-67ED2EB7CE11}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98362512-F026-41B0-8BC6-A05988507B41}
+	EndGlobalSection
+EndGlobal
